@@ -1,20 +1,165 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Aislinn Livingston</title>
-  <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name — Social & Marketing</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Syne:wght@500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
 </head>
-
 <body>
+  <div class="noise" aria-hidden="true"></div>
 
-<h1>Aislinn Livingston</h1>
-<p>Marketing & Social Media Portfolio</p>
+  <header class="site-header">
+    <a class="logo" href="#">@yourhandle</a>
+    <nav class="nav">
+      <a href="#work">Work</a>
+      <a href="#skills">Skills</a>
+      <a href="#about">About</a>
+      <a class="nav-cta" href="#contact">Say hi</a>
+    </nav>
+    <button type="button" class="menu-btn" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+  </header>
 
-<nav>
-<a href="about.html">About</a>
-<a href="projects.html">Projects</a>
-<a href="contact.html">Contact</a>
-</nav>
+  <main>
+    <section class="hero">
+      <div class="hero-blobs" aria-hidden="true">
+        <span class="blob blob-a"></span>
+        <span class="blob blob-b"></span>
+        <span class="blob blob-c"></span>
+      </div>
+      <div class="hero-inner">
+        <p class="eyebrow">Social media · content · campaigns</p>
+        <h1>
+          I turn scrolls into
+          <span class="hero-highlight">stops</span>
+          <span class="hero-wiggle">✦</span>
+        </h1>
+        <p class="lede">
+          Colourful strategy, thumb-stopping creative, and copy that sounds like a human — not a brand guideline PDF.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#work">See the work</a>
+          <a class="btn btn-ghost" href="#contact">Get in touch</a>
+        </div>
+        <ul class="hero-stats" role="list">
+          <li><strong>5+</strong> years in social &amp; digital</li>
+          <li><strong>12</strong> brands &amp; launches</li>
+          <li><strong>∞</strong> ideas per brainstorm</li>
+        </ul>
+      </div>
+    </section>
 
+    <section id="work" class="section work">
+      <div class="section-head">
+        <h2>Selected work</h2>
+        <p>Campaigns, always-on content, and the odd viral moment.</p>
+      </div>
+      <div class="bento">
+        <article class="card card-lg card-pink">
+          <span class="tag">Campaign</span>
+          <h3>Summer launch — lifestyle brand</h3>
+          <p>Led concept, UGC briefs, and a 6-week content calendar across IG + TikTok.</p>
+          <div class="card-metric">+34% engagement vs. prior quarter</div>
+        </article>
+        <article class="card card-tall card-yellow">
+          <span class="tag">Content</span>
+          <h3>Reels series</h3>
+          <p>12-part “day in the life” format; templated for fast production.</p>
+        </article>
+        <article class="card card-blue">
+          <span class="tag">Copy</span>
+          <h3>Brand voice refresh</h3>
+          <p>Tone guide + 50+ post templates for a B2C app.</p>
+        </article>
+        <article class="card card-purple">
+          <span class="tag">Paid + organic</span>
+          <h3>Product drop</h3>
+          <p>Coordinated teasers, live countdown, and community replies in real time.</p>
+        </article>
+        <article class="card card-wide card-mint">
+          <span class="tag">Reporting</span>
+          <h3>Monthly insights deck</h3>
+          <p>What worked, what flopped, and what we’re testing next — in plain English.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills" class="section skills">
+      <div class="section-head">
+        <h2>What I do best</h2>
+        <p>Tools change; curiosity doesn’t.</p>
+      </div>
+      <ul class="pill-grid" role="list">
+        <li>Content strategy</li>
+        <li>Community management</li>
+        <li>Copywriting</li>
+        <li>Short-form video</li>
+        <li>Influencer / creator collabs</li>
+        <li>Paid social (Meta, TikTok)</li>
+        <li>Analytics &amp; reporting</li>
+        <li>Trend spotting</li>
+      </ul>
+    </section>
+
+    <section id="about" class="section about">
+      <div class="about-panel">
+        <div class="about-copy">
+          <h2>Hi, I’m <span class="name-accent">Your Name</span></h2>
+          <p>
+            I’m a social and marketing generalist who loves big ideas and small details: captions, cover frames,
+            reply tone, and the one comment that changes the whole thread.
+          </p>
+          <p>
+            When I’m not posting, I’m probably testing a new hook format, saving references, or arguing that
+            “authentic” still needs a strategy.
+          </p>
+        </div>
+        <div class="about-aside">
+          <div class="aside-block">
+            <h3>Currently</h3>
+            <p>Open to freelance &amp; contract — remote-first.</p>
+          </div>
+          <div class="aside-block">
+            <h3>Based in</h3>
+            <p>Your city · your timezone</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="contact-card">
+        <h2>Let’s make something loud (in a good way)</h2>
+        <p>Tell me about your brand, your launch, or your “we need content yesterday” moment.</p>
+        <a class="btn btn-primary btn-large" href="mailto:you@example.com">you@example.com</a>
+        <div class="social-row">
+          <a href="#" rel="noopener noreferrer">Instagram</a>
+          <a href="#" rel="noopener noreferrer">LinkedIn</a>
+          <a href="#" rel="noopener noreferrer">TikTok</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Your Name. Built with HTML &amp; CSS.</p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+    var btn = document.querySelector(".menu-btn");
+    var nav = document.querySelector(".nav");
+    if (btn && nav) {
+      btn.addEventListener("click", function () {
+        var open = nav.classList.toggle("nav-open");
+        btn.setAttribute("aria-expanded", open ? "true" : "false");
+      });
+    }
+  </script>
 </body>
 </html>
